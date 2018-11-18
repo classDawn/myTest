@@ -13,6 +13,7 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 public class APP_Provider_Hystrix {
 
 	public static void main(String[] args) {
+		//主启动类
 		SpringApplication.run(APP_Provider_Hystrix.class,args);
 	}
 
